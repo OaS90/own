@@ -1,4 +1,4 @@
-<div class="add_goods_form">
+<div class="goods_form">
 <form method="post" action="">
 <h1>Добавление товара</h1>
   <div>Наименование товара:</div>

@@ -1,4 +1,6 @@
+<div class="goods_form">
 <form method="post" action="">
+<h1>Редактирование товара</h1>
   <div>Наименование товара:</div>
    <div><input type="text" name="title" value="<?php echo htmlspecialchars($row['title']);?>"></div>
    <div>Код товара:</div>
@@ -25,3 +27,4 @@
    <div><textarea name="text"><?php echo htmlspecialchars($row['text']);?></textarea></div>
   <div><input type="submit" name="edit" value="Изменить"></div>
 </form>
+</div>

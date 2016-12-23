@@ -350,8 +350,8 @@ input{
 }
 textarea{
 	border:1px solid;
-	width: 200px;
-	height: 100px;	
+	width: 600px;
+	height: 200px;	
 }
 .mod_cont{
 	text-align:center;
@@ -442,10 +442,10 @@ textarea{
 	display:block;
 	font-size:16px;
 }
-.add_goods_form{
+.goods_form{
 	padding:20px;
 }
-.add_goods_form h1{
+.goods_form h1{
 	padding-bottom:20px;
 }
 .add_goods:hover{
