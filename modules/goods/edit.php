@@ -5,15 +5,14 @@ if(isset($_POST['edit'],$_POST['title'],$_POST['description'],$_POST['cat'],$_PO
 	}
 	mysqli_query($link,"
 	UPDATE `goods` SET
-	`title` 	  = '".mysqli_real_escape_string($link,$_POST['title'])."',
+	`titles` 	  = '".mysqli_real_escape_string($link,$_POST['title'])."',
 	`description` = '".mysqli_real_escape_string($link,$_POST['description'])."',
 	`cat`  		  = '".mysqli_real_escape_string($link,$_POST['cat'])."',
 	`text`		  = '".mysqli_real_escape_string($link,$_POST['text'])."',
 	`icode`		  = '".mysqli_real_escape_string($link,$_POST['icode'])."',
 	`price`		  = '".mysqli_real_escape_string($link,$_POST['price'])."'
 	WHERE `id` = '".(int)$_GET['id']."'
-	") or die(mysqli_error($link));
-
+	");
 	$_SESSION['info'] = 'Запись была изменена';
 	header("Location:index.php?module=goods");
 	exit();

@@ -1,11 +1,12 @@
 <div class="add_goods_form">
 <form method="post" action="">
+<h1>Добавление товара</h1>
   <div>Наименование товара:</div>
   <div><input type="text" name="title"></div>  
   <div>Код товара:</div>
   <div><input type="text" name="icode"></div>
   <div>Категория товара:</div>
-  <select name="cat">  
+  <select name="cat" class="cat">  
 <?php
 $category = array('Планшеты','Ноутбуки');
 	foreach($category as $v) {
@@ -23,7 +24,7 @@ $category = array('Планшеты','Ноутбуки');
   <div>Краткое описание:</div>
   <div> <textarea name="description"></textarea></div>
   <div>Полное описание:</div>
-  <div><textarea name="text"></textarea></div> 
+  <div><textarea name="text"></textarea></div><br>
   <div><input type="submit" name="submit" value="Добавить товар"></div>
 </form>
 </div>

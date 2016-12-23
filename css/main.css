@@ -350,6 +350,8 @@ input{
 }
 textarea{
 	border:1px solid;
+	width: 200px;
+	height: 100px;	
 }
 .mod_cont{
 	text-align:center;
@@ -440,8 +442,18 @@ textarea{
 	display:block;
 	font-size:16px;
 }
-.add_news:hover{
-	color:yellow;
+.add_goods_form{
+	padding:20px;
+}
+.add_goods_form h1{
+	padding-bottom:20px;
+}
+.add_goods:hover{
+	color:red;
+	text-decoration:underline;
+}
+.cat{
+	border:1px solid;
 }
 .ids{
 	width:auto;

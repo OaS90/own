@@ -3,10 +3,8 @@
    <div><input type="text" name="title" value="<?php echo htmlspecialchars($row['title']);?>"></div>
    <div>Код товара:</div>
    <div><input type="text" name="icode" value="<?php echo htmlspecialchars($row['icode']);?>"></div>
-
-	<div>Категория товара:</div>
-   <div>
- <select name="cat">  
+   <div>Категория товара:</div>
+ <select class="cat"  name="cat">  
    <?php
 	$category = array('Планшеты','Ноутбуки');
 		foreach($category as $v) {
@@ -19,7 +17,6 @@
 		}	
 ?>
 </select>
-</div>
    <div>Цена товара:</div>
    <div><input type="text" name="price" value="<?php echo htmlspecialchars($row['price']);?>"></div>
   <div>Краткое описание товара:</div>

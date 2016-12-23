@@ -18,12 +18,9 @@ if(isset($_POST['login'],$_POST['email'],$_POST['comment'],$_POST['submit'])){
 		`email`	  = '".mysqli_real_escape_string($link,$_POST['email'])."',
 		`comment` = '".mysqli_real_escape_string($link,$_POST['comment'])."',
 		`date`    = NOW()
-		")or die(mysqli_error($link));
+		");
 		header("Location: /index.php?module=comments");
 		exit();
 	}
 }
-$res = mysqli_query($link,"
-	SELECT * FROM `comments` 
-	ORDER BY `id` DESC") 
-	or die(mysqli_error($link));
+$res = q("SELECT * FROM `comments` ORDER BY `id` DESC") ;

@@ -19,9 +19,8 @@ if(isset($_GET['action']) && $_GET['action']='delete'){
 	mysqli_query($link,"
 	DELETE FROM `goods`
 	WHERE 
-	`id` ='".$_GET['id']."'"
+	`id` ='".(int)$_GET['id']."'"
 	);
-	
 	header("Location:index.php?module=goods");
 	exit();
 }

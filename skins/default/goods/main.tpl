@@ -12,7 +12,7 @@
       <div class="goods_info">
         <div class="title_goods">
 <?php 
-	echo '<p>'.$row['title'].'</p>';
+	echo '<p>'.nl2br(htmlspecialchars($row['title'])).'</p>';
 	echo 'Код товара: '.$row['icode'];
 ?>
         </div>	
