@@ -31,3 +31,6 @@ while($row=mysqli_fetch_assoc($res)){
 </form>
 </div>
 <div class="clear"></div>
+<?php	
+	echo $info;
+	
