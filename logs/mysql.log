@@ -63,3 +63,9 @@ You have an error in your SQL syntax; check the manual that corresponds to your 
  QUERY: SELECTw * FROM `users`
 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
 
+27/12/16, 04:12:11
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 15
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+

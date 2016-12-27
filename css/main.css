@@ -346,7 +346,10 @@ input{
     margin: auto;
     padding: 30px;
     float:left;
-		position:fixed;
+	position:fixed;
+}
+.form_comment textarea{
+	width:182px;	
 }
 textarea{
 	border:1px solid;
@@ -446,6 +449,7 @@ textarea{
 	padding:20px;
 }
 .goods_form h1{
+	font-size:16px;
 	padding-bottom:20px;
 }
 .add_goods:hover{

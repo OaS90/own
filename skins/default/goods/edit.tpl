@@ -24,7 +24,7 @@
   <div>Краткое описание товара:</div>
    <div> <textarea name="description"><?php echo htmlspecialchars($row['description']);?></textarea></div>
   <div>Полное описание:</div>
-   <div><textarea name="text"><?php echo htmlspecialchars($row['text']);?></textarea></div>
+   <div><textarea name="text"><?php echo htmlspecialchars($row['text']);?></textarea></div><br>
   <div><input type="submit" name="edit" value="Изменить"></div>
 </form>
 </div>
