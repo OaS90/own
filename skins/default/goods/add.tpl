@@ -28,4 +28,3 @@ $category = array('Планшеты','Ноутбуки');
   <div><input type="submit" name="submit" value="Добавить товар"></div>
 </form>
 </div>
-	

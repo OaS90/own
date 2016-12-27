@@ -1,6 +1,5 @@
 <div class="mod_comments">
 <?php
-	
 while($row=mysqli_fetch_assoc($res)){
 	echo '<div class="comment">';
 	echo '<b>'.htmlspecialchars($row['login']).' </b>|<span>'.$row['date'].'</span><br>';
@@ -32,4 +31,3 @@ while($row=mysqli_fetch_assoc($res)){
 </form>
 </div>
 <div class="clear"></div>
-	

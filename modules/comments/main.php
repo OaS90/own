@@ -23,4 +23,4 @@ if(isset($_POST['login'],$_POST['email'],$_POST['comment'],$_POST['submit'])){
 		exit();
 	}
 }
-$res = q("SELECT * FROM `commentvs` ORDER BY `id` DESC") ;
+$res = q("SELECT * FROM `comments` ORDER BY `id` DESC") ;
