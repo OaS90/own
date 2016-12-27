@@ -1,4 +1,4 @@
-*{padding: 0; margin: 0;border:0;font-family:"Open Sans", sans siref;color:#757570;font-size:13px; }
+*{padding: 0; margin: 0;border:0;font-family:"Open Sans" sans siref;color:#757570;font-size:13px; }
 .clear{
   clear: both;
 }
@@ -346,7 +346,7 @@ input{
     margin: auto;
     padding: 30px;
     float:left;
-	position:fixed;
+		position:fixed;
 }
 .form_comment textarea{
 	width:182px;	
