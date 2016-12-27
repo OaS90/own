@@ -1,59 +1,8 @@
 
-15/12/16, 07:12:35
- In FILE: C:\OpenServer\domains\own\index.php
- Line #: 15
- QUERY: SELECTw * FROM `users`
-You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
 
-22/12/16, 05:12:35
+27/12/16, 03:12
  In FILE: C:\OpenServer\domains\own\index.php
  Line #: 15
- QUERY: 
-	SELECT * FROM `commensts` 
-	ORDER BY `id` DESC
-Table 'main.commensts' doesn't exist
-
-22/12/16, 05:12:52
- In FILE: C:\OpenServer\domains\own\index.php
- Line #: 15
- QUERY: 
-	SELECT * FROM `commensts` 
-	ORDER BY `id` DESC
-Table 'main.commensts' doesn't exist
-
-22/12/16, 05:12:38
- In FILE: C:\OpenServer\domains\own\index.php
- Line #: 15
- QUERY: SELEsCT * FROM `comments` ORDER BY `id` DESC
-You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELEsCT * FROM `comments` ORDER BY `id` DESC' at line 1
-
-23/12/16, 04:12:38
- In FILE: C:\OpenServer\domains\own\index.php
- Line #: 15
- QUERY: SELECTw * FROM `users`
-You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
-
-23/12/16, 04:12:23
- In FILE: C:\OpenServer\domains\own\index.php
- Line #: 15
- QUERY: SELECTw * FROM `users`
-You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
-
-23/12/16, 04:12:10
- In FILE: C:\OpenServer\domains\own\index.php
- Line #: 15
- QUERY: SELECTw * FROM `users`
-You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
-
-23/12/16, 04:12:59
- In FILE: C:\OpenServer\domains\own\index.php
- Line #: 15
- QUERY: SELECTw * FROM `users`
-You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
-
-23/12/16, 05:12:01
- In FILE: C:\OpenServer\domains\own\index.php
- Line #: 15
- QUERY: SELECTw * FROM `users`
-You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+ QUERY: SELECT * FROM `commentvs` ORDER BY `id` DESC
+Table 'main.commentvs' doesn't exist
 
