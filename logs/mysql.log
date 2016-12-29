@@ -4,3 +4,69 @@
  QUERY: SELECTw * FROM `comments` ORDER BY `id` DESC
 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `comments` ORDER BY `id` DESC' at line 1
 
+28/12/16, 01:12:00
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 15
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+28/12/16, 02:12:01
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 15
+ QUERY: SELECwT * FROM `comments` ORDER BY `id` DESC
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECwT * FROM `comments` ORDER BY `id` DESC' at line 1
+
+28/12/16, 02:12:25
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 15
+ QUERY: SELECwT * FROM `comments` ORDER BY `id` DESC
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECwT * FROM `comments` ORDER BY `id` DESC' at line 1
+
+28/12/16, 02:12:20
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 15
+ QUERY: SELECwT * FROM `comments` ORDER BY `id` DESC
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECwT * FROM `comments` ORDER BY `id` DESC' at line 1
+
+28/12/16, 07:12:54
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 15
+ QUERY: 
+		INSERT INTO `goods` SET
+		`titlet` 	  = 'уцецу',
+		`description` = 'кпкуп',
+		`cat`  		  = 'Планшеты',
+		`text`		  = 'кепкеркеор',
+		`icode`		  = '55525',
+		`price`		  = '363476'
+		
+Unknown column 'titlet' in 'field list'
+
+28/12/16, 07:12:42
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 15
+ QUERY: 
+		INSERT INTO `goods` SET
+		`titlet` 	  = 'уапрпке',
+		`description` = 'варкаеренортке',
+		`cat`  		  = 'Планшеты',
+		`text`		  = 'енотнотнгоьего',
+		`icode`		  = '6754673',
+		`price`		  = '3215346523'
+		
+Unknown column 'titlet' in 'field list'
+
+29-12-16, 10:12:01
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 15
+ QUERY: 
+		INSERT INTO `goods` SET
+		`titles` 	  = 'regerg',
+		`description` = 'tgrth',
+		`cat`  		  = 'Планшеты',
+		`text`		  = 'thrth',
+		`icode`		  = '124214',
+		`price`		  = '124124'
+		
+Unknown column 'titles' in 'field list'
+

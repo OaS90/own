@@ -1,23 +1,21 @@
 <?php
 if(isset($_POST['edit'],$_POST['title'],$_POST['description'],$_POST['cat'],$_POST['text'],$_POST['icode'],$_POST['price'])){
-	foreach($_POST as $k=>$v){
-		$_POST[$k] = trim($v);
-	}
-	mysqli_query($link,"
+	trimAll($_POST);
+	$res = q("
 	UPDATE `goods` SET
-	`titles` 	  = '".mysqli_real_escape_string($link,$_POST['title'])."',
-	`description` = '".mysqli_real_escape_string($link,$_POST['description'])."',
-	`cat`  		  = '".mysqli_real_escape_string($link,$_POST['cat'])."',
-	`text`		  = '".mysqli_real_escape_string($link,$_POST['text'])."',
-	`icode`		  = '".mysqli_real_escape_string($link,$_POST['icode'])."',
-	`price`		  = '".mysqli_real_escape_string($link,$_POST['price'])."'
+	`title` 	  = '".mres($link,$_POST['title'])."',
+	`description` = '".mres($link,$_POST['description'])."',
+	`cat`  		  = '".mres($link,$_POST['cat'])."',
+	`text`		  = '".mres($link,$_POST['text'])."',
+	`icode`		  = '".mres($link,$_POST['icode'])."',
+	`price`		  = '".mres($link,$_POST['price'])."'
 	WHERE `id` = '".(int)$_GET['id']."'
 	");
 	$_SESSION['info'] = 'Запись была изменена';
 	header("Location:index.php?module=goods");
 	exit();
 }
-$goods = mysqli_query($link,"
+$goods = q("
 		SELECT * FROM
 		`goods` WHERE
 		`id` = '".(int)$_GET['id']."'
@@ -28,7 +26,6 @@ if(!mysqli_num_rows($goods)){
 	header("Location:index.php?module=goods");
 	exit();
 }
-
 if(isset($_POST['title'])){
 	$row['title'] = $_POST['title'];
 }
