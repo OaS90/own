@@ -3,12 +3,12 @@ if(isset($_POST['edit'],$_POST['title'],$_POST['description'],$_POST['cat'],$_PO
 	trimAll($_POST);
 	$res = q("
 	UPDATE `goods` SET
-	`title` 	  = '".mres($link,$_POST['title'])."',
-	`description` = '".mres($link,$_POST['description'])."',
-	`cat`  		  = '".mres($link,$_POST['cat'])."',
-	`text`		  = '".mres($link,$_POST['text'])."',
-	`icode`		  = '".mres($link,$_POST['icode'])."',
-	`price`		  = '".mres($link,$_POST['price'])."'
+	`title` 	  = '".mres($_POST['title'])."',
+	`description` = '".mres($_POST['description'])."',
+	`cat`  		  = '".mres($_POST['cat'])."',
+	`text`		  = '".mres($_POST['text'])."',
+	`icode`		  = '".mres($_POST['icode'])."',
+	`price`		  = '".mres($_POST['price'])."'
 	WHERE `id` = '".(int)$_GET['id']."'
 	");
 	$_SESSION['info'] = 'Запись была изменена';

@@ -9,12 +9,15 @@
 			<td>Password</td>
 			<td><input type="text" name="pass"></td>
 		  </tr>	
-		  <tr>
-			<td>Email</td>
-			<td><input type="text" name="email"></td>
-		  </tr>
 		</table>
-	<label class="field"><input type="submit" name="send"></label>
+	<label class="field"><a href="index.php?module=cab&page=reg">Регистрация</a> / <input name="send" type="submit" value="login"></label>
   </form>
 </div>
 <div class="clear">
+<?php
+	echo $okreg;
+	
+	echo '<pre>';
+	print_r($_COOKIE);
+	print_r($_SESSION);
+	echo '</pre>';

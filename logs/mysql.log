@@ -70,3 +70,105 @@ Unknown column 'titlet' in 'field list'
 		
 Unknown column 'titles' in 'field list'
 
+23-01-17, 01:01:58
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 15
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+23-01-17, 02:01:21
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 15
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+23-01-17, 02:01:49
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 15
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+23-01-17, 02:01:26
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 16
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+23-01-17, 02:01:21
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 16
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+24-01-17, 01:01:05
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 16
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+24-01-17, 01:01:08
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 15
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+24-01-17, 02:01:19
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 15
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+24-01-17, 05:01:10
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 15
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+26-01-17, 06:01:43
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 15
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+26-01-17, 06:01:47
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 15
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+26-01-17, 06:01:53
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 15
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+26-01-17, 07:01:47
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 17
+ QUERY: 
+		SELECT `id`
+		FROM `users`
+		WHERE `login` = mmm
+		LIMIT 1
+		
+Unknown column 'mmm' in 'where clause'
+
+26-01-17, 07:01:47
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 17
+ QUERY: INSERT INTO `users` SET
+		`login`    = mmm,
+		`email`	   = 123@bk.ru,
+		`password` = $1$Ol3.9u4.$isyODvIfKPr5YhWAJnsQ/0,
+		`hash`     = $1$ch/./i..$TzhemnQlDEaXEkdoZfCau1	
+		
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@bk.ru,
+		`password` = $1$Ol3.9u4.$isyODvIfKPr5YhWAJnsQ/0,
+		`hash`     = $1$c' at line 3
+
+27-01-17, 09:01:20
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 17
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+

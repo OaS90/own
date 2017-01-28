@@ -67,7 +67,8 @@ function hsc($el){
 		}
 	return $el;
 }
-function mres($link,$el){
+function mres($el){
+	global $link;
 	if(!is_array($el)){
 		return mysqli_real_escape_string($link,$el);
 		}
@@ -76,7 +77,12 @@ function mres($link,$el){
 		}
 	return $el;
 }
-
+function MyHash($var){
+	$salt = 'Aa';
+	$salt2 = 'CsA';
+	$var = crypt(md5($var.$salt),$salt2);
+	return $var;
+}
 
 
 
