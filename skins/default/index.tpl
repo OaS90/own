@@ -38,8 +38,8 @@ if ($_SERVER['REMOTE_ADDR'] == '127.0.1.1' || (isset($_COOKIE['access']))){
 <div class="bottom">
   <a href="#">Place</a> &copy; 
 <?php 
-echo CREATED;
-if (CREATED !== date('Y')){
+echo Core::$CREATED;
+if (Core::$CREATED !== date('Y')){
 	echo ' - ' . date('Y');
 } 
 ?>

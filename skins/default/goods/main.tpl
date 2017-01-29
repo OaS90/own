@@ -12,11 +12,11 @@
       <div class="goods_info">
         <div class="title_goods">
 <?php 
-	echo '<p>'.nl2br(htmlspecialchars($row['title'])).'</p>';
+	echo '<p>'.nl2br(hsc($row['title'])).'</p>';
 	echo 'Код товара: '.$row['icode'];
 ?>
         </div>	
-        <div class="text_goods"><?php echo nl2br(htmlspecialchars($row['text']));?></div>	
+        <div class="text_goods"><?php echo nl2br(hsc($row['text']));?></div>	
       </div> 
 	  <div class="price"><?php echo 'Цена товара: '.$row['price']. ' руб.';?></div>
       <div class="goods_ch">

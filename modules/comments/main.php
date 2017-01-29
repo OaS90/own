@@ -1,7 +1,7 @@
 <?php
 //Comments controller
-$errors = array();	
 if(isset($_POST['login'],$_POST['email'],$_POST['comment'],$_POST['submit'])){
+	$errors = array();
 	if(empty($_POST['login'])){
 		$errors['login'] = 'Вы не ввели логин';
 	}
@@ -14,9 +14,9 @@ if(isset($_POST['login'],$_POST['email'],$_POST['comment'],$_POST['submit'])){
 	if(!count($errors)){
 		mysqli_query($link,
 		"INSERT INTO `comments` SET
-		`login`   = '".mysqli_real_escape_string($link,$_POST['login'])."',
-		`email`	  = '".mysqli_real_escape_string($link,$_POST['email'])."',
-		`comment` = '".mysqli_real_escape_string($link,$_POST['comment'])."',
+		`login`   = '".mres($_POST['login'])."',
+		`email`	  = '".mres($_POST['email'])."',
+		`comment` = '".mres($_POST['comment'])."',
 		`date`    = NOW()
 		");
 		header("Location: /index.php?module=comments");

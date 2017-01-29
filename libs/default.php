@@ -6,7 +6,7 @@ function wtf($array, $stop = false) {
 		exit();
 	}
 }
-
+//при ошибке, записывает ее в лог
 function q($query){ //mysqli_query
 	global $link;	
 	$res = mysqli_query($link,$query);
@@ -18,19 +18,21 @@ function q($query){ //mysqli_query
 				$line = $v['line'];
 			}	
 		}	
-	$error = date('d/m/y, h:m:s')."\n In FILE: ".$file."\n Line #: ".$line."\n QUERY: ". $query."\n".mysqli_error($link);
+	$error = date('d-m-y, h:m:s')."\n In FILE: ".$file."\n Line #: ".$line."\n QUERY: ". $query."\n".mysqli_error($link);
 	file_put_contents('./logs/mysql.log',strip_tags($error)."\n\n",FILE_APPEND);	
 	}
 	else{
 		return $res;
 	}
 }
+global $link;
+//убирает пробелы
 function trimAll($el){
 	if(!is_array($el)){
-		return trim($el);
+		$el = trim($el);
 		}
-		else {
-			 $el = array_map('trimAll',$el);
+	else {
+		$el = array_map('trimAll',$el);
 		}
 	return $el;
 }
@@ -40,8 +42,8 @@ function intAll($el){
 	if(!is_array($el)){
 		return (int)$el;
 		}
-		else {
-			 $el = array_map('intAll',$el);
+	else {
+		$el = array_map('intAll',$el);
 		}
 	return $el;
 }
@@ -52,9 +54,37 @@ function floatAll($el){
 		return (float)$el;
 		}
 		else {
-			 $el = array_map('floatAll',$el);
+		$el = array_map('floatAll',$el);
 		}
 	return $el;
 }
+function hsc($el){
+	if(!is_array($el)){
+		return htmlspecialchars($el);
+		}
+	else {
+		$el = array_map('hsc',$el);
+		}
+	return $el;
+}
+function mres($el){
+	global $link;
+	if(!is_array($el)){
+		return mysqli_real_escape_string($link,$el);
+		}
+	else {
+		$el = array_map('mres',$el);
+		}
+	return $el;
+}
+function MyHash($var){
+	$salt = 'Aa';
+	$salt2 = 'CsA';
+	$var = crypt(md5($var.$salt),$salt2);
+	return $var;
+}
+
+
+
 
 

@@ -1,12 +1,12 @@
 <?php
 //Goods controller
-$goods=mysqli_query($link,"
+$goods=q("
 	SELECT * FROM `goods` 
 	ORDER BY `id` DESC"
 );
 if(isset($_POST['delete'],$_POST['ids'])){
 	foreach($_POST['ids'] as $k=>$v){
-	mysqli_query($link,"
+	q("
 	DELETE FROM `goods`
 	WHERE 
 	`id` ='".(int)$v."'"
@@ -16,7 +16,7 @@ if(isset($_POST['delete'],$_POST['ids'])){
 	exit();
 }
 if(isset($_GET['action']) && $_GET['action']='delete'){
-	mysqli_query($link,"
+	q("
 	DELETE FROM `goods`
 	WHERE 
 	`id` ='".(int)$_GET['id']."'"
