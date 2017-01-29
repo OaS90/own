@@ -4,3 +4,21 @@
  QUERY: SELECTw * FROM `comments` ORDER BY `id` DESC
 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `comments` ORDER BY `id` DESC' at line 1
 
+03/01/17, 12:01:09
+ In FILE: C:\OS\OpenServer\domains\own\index.php
+ Line #: 15
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+03/01/17, 12:01:13
+ In FILE: C:\OS\OpenServer\domains\own\index.php
+ Line #: 15
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+03/01/17, 12:01:20
+ In FILE: C:\OS\OpenServer\domains\own\index.php
+ Line #: 15
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
