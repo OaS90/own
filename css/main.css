@@ -283,11 +283,13 @@ a:hover{
 	border-bottom: 1px dashed #d8d8cf;
 	margin-bottom:25px;
 }
-.field{
-	float:right;
-}
+
 .auth{
+	width:208px;
+	margin: 0 auto;
 	padding:30px;
+}
+.field{
 	float:right;
 }
 input{
@@ -346,7 +348,7 @@ input{
     margin: auto;
     padding: 30px;
     float:left;
-		position:fixed;
+	position:fixed;
 }
 .form_comment textarea{
 	width:182px;	

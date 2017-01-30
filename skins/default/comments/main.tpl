@@ -1,3 +1,7 @@
+<?php
+//форма комментариев 
+if(isset($_SESSION['user']) && $_GET['module'] == 'comments'){
+?>
 <div class="mod_comments">
 <?php
 while($row=mysqli_fetch_assoc($res)){
@@ -31,3 +35,9 @@ while($row=mysqli_fetch_assoc($res)){
 </form>
 </div>
 <div class="clear"></div>
+<?php
+	}
+else {
+	echo '<p>вам необходимо авторизироваться</p>';
+}
+?>
