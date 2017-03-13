@@ -3,7 +3,7 @@
 		static $sub = 'по умолчанию';
 		static $to = 'oas90@bk.ru';
 		static $from = 'admin@xboctuk.school-php.com';
-		static $text = 'аблонный текст';
+		static $text = 'Шаблонный текст';
 		static $headers = '';
 		
 		static function send(){

@@ -464,3 +464,29 @@ textarea{
 .ids{
 	width:auto;
 }
+.yt-item{
+	margin-top: 20px;
+	padding-right: 15px;
+	width: 120px;
+	height: 150px;
+	float: left;
+}
+.need_auth{
+	padding: 20px 0;
+	text-align: center;
+	font-size: 22px;
+}
+.need_auth a {
+	font-size: 22px;
+	text-decoration: underline;
+	color: black;
+}
+.need_auth a:hover{
+	color: #66cdaa;
+}
+.yt-container{
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px;
+}

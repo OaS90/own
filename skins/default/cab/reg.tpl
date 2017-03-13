@@ -18,4 +18,3 @@
   </form>
 </div>
 <div class="clear">
-<?php

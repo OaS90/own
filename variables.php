@@ -1,5 +1,5 @@
 <?php
-$allowed= array('static','contacts','aboutus','game','fm','file','errors','cab','comments','goods');
+$allowed= array('static','contacts','aboutus','game','fm','file','errors','cab','comments','goods','youtube');
 if(!isset($_GET['module'])) {
 	$_GET['module'] = 'static';
 } elseif(!in_array($_GET['module'],$allowed)) {

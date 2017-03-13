@@ -38,6 +38,6 @@ while($row=mysqli_fetch_assoc($res)){
 <?php
 	}
 else {
-	echo '<p>вам необходимо авторизироваться</p>';
+	echo '<h1 class="need_auth">Вам необходимо <a href="index.php?module=cab&page=auth">авторизироваться</a></h1>';
 }
 ?>

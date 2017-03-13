@@ -26,7 +26,7 @@ if ($_SERVER['REMOTE_ADDR'] == '127.0.1.1' || (isset($_COOKIE['access']))){
 	  <div class="sn">
 		<a href="#" class="t"></a>
 		<a href="#" class="f"></a>
-	    <a href="#" class="dot"></a>
+	    <a href="index.php?module=youtube" class="dot"></a>
 	  </div>
 	 <div class="clear"></div>
   </div>

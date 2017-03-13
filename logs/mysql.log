@@ -403,3 +403,201 @@ You have an error in your SQL syntax; check the manual that corresponds to your 
 
 =======
 >>>>>>> 88b1fe910098d82fe577a4900ad5e0d677ad749f
+31-01-17, 09:01:21
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+31-01-17, 09:01:19
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+31-01-17, 09:01:12
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+31-01-17, 10:01:26
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+31-01-17, 10:01:08
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+31-01-17, 11:01:37
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+06-02-17, 09:02:17
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+06-02-17, 09:02:00
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+06-02-17, 09:02:01
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+06-02-17, 01:02:39
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+22-02-17, 02:02:57
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+13-03-17, 02:03:10
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+13-03-17, 02:03:22
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECT * FROM `comments` ORDER BY `id` DESC
+Table 'main.comments' doesn't exist
+
+13-03-17, 02:03:11
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECT * FROM `comments` ORDER BY `id` DESC
+Table 'main.comments' doesn't exist
+
+13-03-17, 02:03:12
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECT * FROM `comments` ORDER BY `id` DESC
+Table 'main.comments' doesn't exist
+
+13-03-17, 02:03:25
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECT * FROM `comments` ORDER BY `id` DESC
+Table 'main.comments' doesn't exist
+
+13-03-17, 02:03:48
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECT * FROM `comments` ORDER BY `id` DESC
+Table 'main.comments' doesn't exist
+
+13-03-17, 02:03:48
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECT * FROM `comments` ORDER BY `id` DESC
+Table 'main.comments' doesn't exist
+
+13-03-17, 02:03:49
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECT * FROM `comments` ORDER BY `id` DESC
+Table 'main.comments' doesn't exist
+
+13-03-17, 02:03:55
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECT * FROM `comments` ORDER BY `id` DESC
+Table 'main.comments' doesn't exist
+
+13-03-17, 03:03:31
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECT * FROM `comments` ORDER BY `id` DESC
+Table 'main.comments' doesn't exist
+
+13-03-17, 03:03:34
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECT * FROM `comments` ORDER BY `id` DESC
+Table 'main.comments' doesn't exist
+
+13-03-17, 03:03:53
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECT * FROM `comments` ORDER BY `id` DESC
+Table 'main.comments' doesn't exist
+
+13-03-17, 03:03:25
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECT * FROM `comments` ORDER BY `id` DESC
+Table 'main.comments' doesn't exist
+
+13-03-17, 03:03:29
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECT * FROM `comments` ORDER BY `id` DESC
+Table 'main.comments' doesn't exist
+
+13-03-17, 03:03:19
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECT * FROM `comments` ORDER BY `id` DESC
+Table 'main.comments' doesn't exist
+
+13-03-17, 03:03:39
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECT * FROM `comments` ORDER BY `id` DESC
+Table 'main.comments' doesn't exist
+
+13-03-17, 03:03:39
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECT * FROM `comments` ORDER BY `id` DESC
+Table 'main.comments' doesn't exist
+
+13-03-17, 03:03:09
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECT * FROM `comments` ORDER BY `id` DESC
+Table 'main.comments' doesn't exist
+
+13-03-17, 03:03:22
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECTw * FROM `users`
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTw * FROM `users`' at line 1
+
+13-03-17, 03:03:24
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECT * FROM `comments` ORDER BY `id` DESC
+Table 'main.comments' doesn't exist
+
+13-03-17, 03:03:49
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECT * FROM `comments` ORDER BY `id` DESC
+Table 'main.comments' doesn't exist
+
+13-03-17, 03:03:51
+ In FILE: C:\OpenServer\domains\own\index.php
+ Line #: 20
+ QUERY: SELECT * FROM `comments` ORDER BY `id` DESC
+Table 'main.comments' doesn't exist
+
